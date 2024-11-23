@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html>
+   <body>
+      <h2>Facture</h2>
+      <p>Livre 1 : <TITLE>Learn Java Now</TITLE> = <PRICE>9.95</PRICE> $</p>
+      <p>Livre 2 : <TITLE>Design Patterns</TITLE> = <PRICE>49.95</PRICE> $</p>
+      <p>
+         <b>Total : </b>59.900000000000006 $</p>
+   </body>
+</html>
