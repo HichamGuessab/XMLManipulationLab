@@ -1,0 +1,767 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xml>
+   <ACTEUR>
+      <NOM>
+         <PRENOM>Sigourney</PRENOM>
+         <NOM>Weaver</NOM>
+      </NOM>
+      <FILMS>
+         <FILM titre="Alien"/>
+      </FILMS>
+   </ACTEUR>
+   <ACTEUR>
+      <NOM>
+         <PRENOM>Kate</PRENOM>
+         <NOM>Winslet</NOM>
+      </NOM>
+      <FILMS>
+         <FILM titre="Titanic"/>
+      </FILMS>
+   </ACTEUR>
+   <ACTEUR>
+      <NOM>
+         <PRENOM>Leonardo</PRENOM>
+         <NOM>DiCaprio</NOM>
+      </NOM>
+      <FILMS>
+         <FILM titre="Titanic"/>
+      </FILMS>
+   </ACTEUR>
+   <ACTEUR>
+      <NOM>
+         <PRENOM>John</PRENOM>
+         <NOM>Travolta</NOM>
+      </NOM>
+      <FILMS>
+         <FILM titre="Volte/Face"/>
+         <FILM titre="Pulp fiction"/>
+      </FILMS>
+   </ACTEUR>
+   <ACTEUR>
+      <NOM>
+         <PRENOM>Nicolas</PRENOM>
+         <NOM>Cage</NOM>
+      </NOM>
+      <FILMS>
+         <FILM titre="Volte/Face"/>
+      </FILMS>
+   </ACTEUR>
+   <ACTEUR>
+      <NOM>
+         <PRENOM>Johnny</PRENOM>
+         <NOM>Depp</NOM>
+      </NOM>
+      <FILMS>
+         <FILM titre="Sleepy Hollow"/>
+      </FILMS>
+   </ACTEUR>
+   <ACTEUR>
+      <NOM>
+         <PRENOM>Christina</PRENOM>
+         <NOM>Ricci</NOM>
+      </NOM>
+      <FILMS>
+         <FILM titre="Sleepy Hollow"/>
+      </FILMS>
+   </ACTEUR>
+   <ACTEUR>
+      <NOM>
+         <PRENOM>Christopher</PRENOM>
+         <NOM>Walken</NOM>
+      </NOM>
+      <FILMS>
+         <FILM titre="Sleepy Hollow"/>
+      </FILMS>
+   </ACTEUR>
+   <ACTEUR>
+      <NOM>
+         <PRENOM>Kevin</PRENOM>
+         <NOM>Spacey</NOM>
+      </NOM>
+      <FILMS>
+         <FILM titre="American Beauty"/>
+         <FILM titre="Seven"/>
+      </FILMS>
+   </ACTEUR>
+   <ACTEUR>
+      <NOM>
+         <PRENOM>Anette</PRENOM>
+         <NOM>Bening</NOM>
+      </NOM>
+      <FILMS>
+         <FILM titre="American Beauty"/>
+      </FILMS>
+   </ACTEUR>
+   <ACTEUR>
+      <NOM>
+         <PRENOM>Clint</PRENOM>
+         <NOM>Eastwood</NOM>
+      </NOM>
+      <FILMS>
+         <FILM titre="Impitoyable"/>
+         <FILM titre="Les pleins pouvoirs"/>
+      </FILMS>
+   </ACTEUR>
+   <ACTEUR>
+      <NOM>
+         <PRENOM>Gene</PRENOM>
+         <NOM>Hackman</NOM>
+      </NOM>
+      <FILMS>
+         <FILM titre="Impitoyable"/>
+         <FILM titre="Les pleins pouvoirs"/>
+      </FILMS>
+   </ACTEUR>
+   <ACTEUR>
+      <NOM>
+         <PRENOM>Morgan</PRENOM>
+         <NOM>Freeman</NOM>
+      </NOM>
+      <FILMS>
+         <FILM titre="Impitoyable"/>
+         <FILM titre="Seven"/>
+      </FILMS>
+   </ACTEUR>
+   <ACTEUR>
+      <NOM>
+         <PRENOM>Russell</PRENOM>
+         <NOM>Crowe</NOM>
+      </NOM>
+      <FILMS>
+         <FILM titre="Gladiator"/>
+      </FILMS>
+   </ACTEUR>
+   <ACTEUR>
+      <NOM>
+         <PRENOM>Harrison</PRENOM>
+         <NOM>Ford</NOM>
+      </NOM>
+      <FILMS>
+         <FILM titre="Blade Runner"/>
+         <FILM titre="Le retour du Jedi"/>
+      </FILMS>
+   </ACTEUR>
+   <ACTEUR>
+      <NOM>
+         <PRENOM>Rutger</PRENOM>
+         <NOM>Hauer</NOM>
+      </NOM>
+      <FILMS>
+         <FILM titre="Blade Runner"/>
+      </FILMS>
+   </ACTEUR>
+   <ACTEUR>
+      <NOM>
+         <PRENOM>Bruce</PRENOM>
+         <NOM>Willis</NOM>
+      </NOM>
+      <FILMS>
+         <FILM titre="Piège de cristal"/>
+         <FILM titre="58 minutes pour vivre"/>
+         <FILM titre="L_armée des douze singes"/>
+         <FILM titre="Pulp fiction"/>
+         <FILM titre="Le cinquième élément"/>
+      </FILMS>
+   </ACTEUR>
+   <ACTEUR>
+      <NOM>
+         <PRENOM>Rosanna</PRENOM>
+         <NOM>Arquette</NOM>
+      </NOM>
+      <FILMS>
+         <FILM titre="Le grand bleu"/>
+         <FILM titre="Pulp fiction"/>
+      </FILMS>
+   </ACTEUR>
+   <ACTEUR>
+      <NOM>
+         <PRENOM>Jean</PRENOM>
+         <NOM>Reno</NOM>
+      </NOM>
+      <FILMS>
+         <FILM titre="Le grand bleu"/>
+         <FILM titre="Godzilla"/>
+         <FILM titre="Léon"/>
+      </FILMS>
+   </ACTEUR>
+   <ACTEUR>
+      <NOM>
+         <PRENOM>Jean-Marc</PRENOM>
+         <NOM>Barr</NOM>
+      </NOM>
+      <FILMS>
+         <FILM titre="Le grand bleu"/>
+      </FILMS>
+   </ACTEUR>
+   <ACTEUR>
+      <NOM>
+         <PRENOM>Jacques</PRENOM>
+         <NOM>Dutronc</NOM>
+      </NOM>
+      <FILMS>
+         <FILM titre="Van Gogh"/>
+      </FILMS>
+   </ACTEUR>
+   <ACTEUR>
+      <NOM>
+         <PRENOM>Brad</PRENOM>
+         <NOM>Pitt</NOM>
+      </NOM>
+      <FILMS>
+         <FILM titre="Seven"/>
+      </FILMS>
+   </ACTEUR>
+   <ACTEUR>
+      <NOM>
+         <PRENOM>Sean</PRENOM>
+         <NOM>Connery</NOM>
+      </NOM>
+      <FILMS>
+         <FILM titre="Le nom de la rose"/>
+         <FILM titre="Pas de printemps pour Marnie"/>
+      </FILMS>
+   </ACTEUR>
+   <ACTEUR>
+      <NOM>
+         <PRENOM>Christian</PRENOM>
+         <NOM>Slater</NOM>
+      </NOM>
+      <FILMS>
+         <FILM titre="Le nom de la rose"/>
+      </FILMS>
+   </ACTEUR>
+   <ACTEUR>
+      <NOM>
+         <PRENOM>James</PRENOM>
+         <NOM>Stewart</NOM>
+      </NOM>
+      <FILMS>
+         <FILM titre="Vertigo"/>
+      </FILMS>
+   </ACTEUR>
+   <ACTEUR>
+      <NOM>
+         <PRENOM>Kim</PRENOM>
+         <NOM>Novak</NOM>
+      </NOM>
+      <FILMS>
+         <FILM titre="Vertigo"/>
+      </FILMS>
+   </ACTEUR>
+   <ACTEUR>
+      <NOM>
+         <PRENOM>Samuel L.</PRENOM>
+         <NOM>Jackson</NOM>
+      </NOM>
+      <FILMS>
+         <FILM titre="Pulp fiction"/>
+      </FILMS>
+   </ACTEUR>
+   <ACTEUR>
+      <NOM>
+         <PRENOM>Uma</PRENOM>
+         <NOM>Thurman</NOM>
+      </NOM>
+      <FILMS>
+         <FILM titre="Pulp fiction"/>
+      </FILMS>
+   </ACTEUR>
+   <ACTEUR>
+      <NOM>
+         <PRENOM>Cameron</PRENOM>
+         <NOM>Diaz</NOM>
+      </NOM>
+      <FILMS>
+         <FILM titre="Mary à tout prix"/>
+      </FILMS>
+   </ACTEUR>
+   <ACTEUR>
+      <NOM>
+         <PRENOM>Mat</PRENOM>
+         <NOM>Dillon</NOM>
+      </NOM>
+      <FILMS>
+         <FILM titre="Mary à tout prix"/>
+      </FILMS>
+   </ACTEUR>
+   <ACTEUR>
+      <NOM>
+         <PRENOM>Arnold</PRENOM>
+         <NOM>Schwartzenegger</NOM>
+      </NOM>
+      <FILMS>
+         <FILM titre="Terminator"/>
+      </FILMS>
+   </ACTEUR>
+   <ACTEUR>
+      <NOM>
+         <PRENOM>Roy</PRENOM>
+         <NOM>Sheider</NOM>
+      </NOM>
+      <FILMS>
+         <FILM titre="Les dents de la mer"/>
+      </FILMS>
+   </ACTEUR>
+   <ACTEUR>
+      <NOM>
+         <PRENOM>Robert</PRENOM>
+         <NOM>Shaw</NOM>
+      </NOM>
+      <FILMS>
+         <FILM titre="Les dents de la mer"/>
+      </FILMS>
+   </ACTEUR>
+   <ACTEUR>
+      <NOM>
+         <PRENOM>Richard</PRENOM>
+         <NOM>Dreyfus</NOM>
+      </NOM>
+      <FILMS>
+         <FILM titre="Les dents de la mer"/>
+      </FILMS>
+   </ACTEUR>
+   <ACTEUR>
+      <NOM>
+         <PRENOM>Anthony</PRENOM>
+         <NOM>Hopkins</NOM>
+      </NOM>
+      <FILMS>
+         <FILM titre="Le silence des agneaux"/>
+      </FILMS>
+   </ACTEUR>
+   <ACTEUR>
+      <NOM>
+         <PRENOM>Jodie</PRENOM>
+         <NOM>Foster</NOM>
+      </NOM>
+      <FILMS>
+         <FILM titre="Le silence des agneaux"/>
+      </FILMS>
+   </ACTEUR>
+   <ACTEUR>
+      <NOM>
+         <PRENOM>Val</PRENOM>
+         <NOM>Kilmer</NOM>
+      </NOM>
+      <FILMS>
+         <FILM titre="Le prince d_Egypte"/>
+         <FILM titre="Top Gun"/>
+      </FILMS>
+   </ACTEUR>
+   <ACTEUR>
+      <NOM>
+         <PRENOM>Ralph</PRENOM>
+         <NOM>Fiennes</NOM>
+      </NOM>
+      <FILMS>
+         <FILM titre="Le prince d_Egypte"/>
+      </FILMS>
+   </ACTEUR>
+   <ACTEUR>
+      <NOM>
+         <PRENOM>Michelle</PRENOM>
+         <NOM>Pfeiffer</NOM>
+      </NOM>
+      <FILMS>
+         <FILM titre="Le prince d_Egypte"/>
+      </FILMS>
+   </ACTEUR>
+   <ACTEUR>
+      <NOM>
+         <PRENOM>Sandra</PRENOM>
+         <NOM>Bullock</NOM>
+      </NOM>
+      <FILMS>
+         <FILM titre="Le prince d_Egypte"/>
+      </FILMS>
+   </ACTEUR>
+   <ACTEUR>
+      <NOM>
+         <PRENOM>Jeff</PRENOM>
+         <NOM>Goldblum</NOM>
+      </NOM>
+      <FILMS>
+         <FILM titre="Le prince d_Egypte"/>
+         <FILM titre="Le monde perdu"/>
+      </FILMS>
+   </ACTEUR>
+   <ACTEUR>
+      <NOM>
+         <PRENOM>Matthew</PRENOM>
+         <NOM>Broderick</NOM>
+      </NOM>
+      <FILMS>
+         <FILM titre="Godzilla"/>
+      </FILMS>
+   </ACTEUR>
+   <ACTEUR>
+      <NOM>
+         <PRENOM>Keanu</PRENOM>
+         <NOM>Reeves</NOM>
+      </NOM>
+      <FILMS>
+         <FILM titre="Matrix"/>
+      </FILMS>
+   </ACTEUR>
+   <ACTEUR>
+      <NOM>
+         <PRENOM>Laurence</PRENOM>
+         <NOM>Fishburne</NOM>
+      </NOM>
+      <FILMS>
+         <FILM titre="Matrix"/>
+      </FILMS>
+   </ACTEUR>
+   <ACTEUR>
+      <NOM>
+         <PRENOM>Ed</PRENOM>
+         <NOM>Harris</NOM>
+      </NOM>
+      <FILMS>
+         <FILM titre="Les pleins pouvoirs"/>
+      </FILMS>
+   </ACTEUR>
+   <ACTEUR>
+      <NOM>
+         <PRENOM>Louis</PRENOM>
+         <NOM>De Funès</NOM>
+      </NOM>
+      <FILMS>
+         <FILM titre="Le gendarme et les extra-terrestres"/>
+      </FILMS>
+   </ACTEUR>
+   <ACTEUR>
+      <NOM>
+         <PRENOM>Michel</PRENOM>
+         <NOM>Galabru</NOM>
+      </NOM>
+      <FILMS>
+         <FILM titre="Le gendarme et les extra-terrestres"/>
+         <FILM titre="Les frères pétards"/>
+      </FILMS>
+   </ACTEUR>
+   <ACTEUR>
+      <NOM>
+         <PRENOM>Tchéky</PRENOM>
+         <NOM>Karyo</NOM>
+      </NOM>
+      <FILMS>
+         <FILM titre="Nikita"/>
+         <FILM titre="Jeanne d_Arc"/>
+      </FILMS>
+   </ACTEUR>
+   <ACTEUR>
+      <NOM>
+         <PRENOM>Anne</PRENOM>
+         <NOM>Parillaud</NOM>
+      </NOM>
+      <FILMS>
+         <FILM titre="Nikita"/>
+      </FILMS>
+   </ACTEUR>
+   <ACTEUR>
+      <NOM>
+         <PRENOM>Jean-Hughes</PRENOM>
+         <NOM>Anglade</NOM>
+      </NOM>
+      <FILMS>
+         <FILM titre="Nikita"/>
+      </FILMS>
+   </ACTEUR>
+   <ACTEUR>
+      <NOM>
+         <PRENOM>Josiane</PRENOM>
+         <NOM>Balasko</NOM>
+      </NOM>
+      <FILMS>
+         <FILM titre="Les frères pétards"/>
+         <FILM titre="Les bronzés font du ski"/>
+      </FILMS>
+   </ACTEUR>
+   <ACTEUR>
+      <NOM>
+         <PRENOM>Dominique</PRENOM>
+         <NOM>Lavanant</NOM>
+      </NOM>
+      <FILMS>
+         <FILM titre="Les frères pétards"/>
+         <FILM titre="Les bronzés font du ski"/>
+      </FILMS>
+   </ACTEUR>
+   <ACTEUR>
+      <NOM>
+         <PRENOM>Gérard</PRENOM>
+         <NOM>Lanvin</NOM>
+      </NOM>
+      <FILMS>
+         <FILM titre="Les frères pétards"/>
+      </FILMS>
+   </ACTEUR>
+   <ACTEUR>
+      <NOM>
+         <PRENOM>Jacques</PRENOM>
+         <NOM>Villeret</NOM>
+      </NOM>
+      <FILMS>
+         <FILM titre="Les frères pétards"/>
+      </FILMS>
+   </ACTEUR>
+   <ACTEUR>
+      <NOM>
+         <PRENOM>Tom</PRENOM>
+         <NOM>Cruise</NOM>
+      </NOM>
+      <FILMS>
+         <FILM titre="Rain Man"/>
+         <FILM titre="Top Gun"/>
+         <FILM titre="Eyes Wide Shut"/>
+      </FILMS>
+   </ACTEUR>
+   <ACTEUR>
+      <NOM>
+         <PRENOM>Dustin</PRENOM>
+         <NOM>Hoffman</NOM>
+      </NOM>
+      <FILMS>
+         <FILM titre="Rain Man"/>
+         <FILM titre="Jeanne d_Arc"/>
+      </FILMS>
+   </ACTEUR>
+   <ACTEUR>
+      <NOM>
+         <PRENOM>Kelly</PRENOM>
+         <NOM>McGillis</NOM>
+      </NOM>
+      <FILMS>
+         <FILM titre="Top Gun"/>
+      </FILMS>
+   </ACTEUR>
+   <ACTEUR>
+      <NOM>
+         <PRENOM>Michel</PRENOM>
+         <NOM>Blanc</NOM>
+      </NOM>
+      <FILMS>
+         <FILM titre="Les bronzés font du ski"/>
+      </FILMS>
+   </ACTEUR>
+   <ACTEUR>
+      <NOM>
+         <PRENOM>Christian</PRENOM>
+         <NOM>Clavier</NOM>
+      </NOM>
+      <FILMS>
+         <FILM titre="Les bronzés font du ski"/>
+      </FILMS>
+   </ACTEUR>
+   <ACTEUR>
+      <NOM>
+         <PRENOM>Thierry</PRENOM>
+         <NOM>Lhermite</NOM>
+      </NOM>
+      <FILMS>
+         <FILM titre="Les bronzés font du ski"/>
+      </FILMS>
+   </ACTEUR>
+   <ACTEUR>
+      <NOM>
+         <PRENOM>Anthony</PRENOM>
+         <NOM>Perkins</NOM>
+      </NOM>
+      <FILMS>
+         <FILM titre="Psychose"/>
+      </FILMS>
+   </ACTEUR>
+   <ACTEUR>
+      <NOM>
+         <PRENOM>Vera</PRENOM>
+         <NOM>Miles</NOM>
+      </NOM>
+      <FILMS>
+         <FILM titre="Psychose"/>
+      </FILMS>
+   </ACTEUR>
+   <ACTEUR>
+      <NOM>
+         <PRENOM>Janet</PRENOM>
+         <NOM>Leigh</NOM>
+      </NOM>
+      <FILMS>
+         <FILM titre="Psychose"/>
+      </FILMS>
+   </ACTEUR>
+   <ACTEUR>
+      <NOM>
+         <PRENOM>Mark</PRENOM>
+         <NOM>Hamill</NOM>
+      </NOM>
+      <FILMS>
+         <FILM titre="Le retour du Jedi"/>
+      </FILMS>
+   </ACTEUR>
+   <ACTEUR>
+      <NOM>
+         <PRENOM>Carrie</PRENOM>
+         <NOM>Fisher</NOM>
+      </NOM>
+      <FILMS>
+         <FILM titre="Le retour du Jedi"/>
+      </FILMS>
+   </ACTEUR>
+   <ACTEUR>
+      <NOM>
+         <PRENOM>Rod</PRENOM>
+         <NOM>Taylor</NOM>
+      </NOM>
+      <FILMS>
+         <FILM titre="Les oiseaux"/>
+      </FILMS>
+   </ACTEUR>
+   <ACTEUR>
+      <NOM>
+         <PRENOM>Tippi</PRENOM>
+         <NOM>Hedren</NOM>
+      </NOM>
+      <FILMS>
+         <FILM titre="Les oiseaux"/>
+         <FILM titre="Pas de printemps pour Marnie"/>
+      </FILMS>
+   </ACTEUR>
+   <ACTEUR>
+      <NOM>
+         <PRENOM>Quentin</PRENOM>
+         <NOM>Tarantino</NOM>
+      </NOM>
+      <FILMS>
+         <FILM titre="Reservoir dogs"/>
+      </FILMS>
+   </ACTEUR>
+   <ACTEUR>
+      <NOM>
+         <PRENOM>Harvey</PRENOM>
+         <NOM>Keitel</NOM>
+      </NOM>
+      <FILMS>
+         <FILM titre="Reservoir dogs"/>
+      </FILMS>
+   </ACTEUR>
+   <ACTEUR>
+      <NOM>
+         <PRENOM>Tim</PRENOM>
+         <NOM>Roth</NOM>
+      </NOM>
+      <FILMS>
+         <FILM titre="Reservoir dogs"/>
+      </FILMS>
+   </ACTEUR>
+   <ACTEUR>
+      <NOM>
+         <PRENOM>Chris</PRENOM>
+         <NOM>Penn</NOM>
+      </NOM>
+      <FILMS>
+         <FILM titre="Reservoir dogs"/>
+      </FILMS>
+   </ACTEUR>
+   <ACTEUR>
+      <NOM>
+         <PRENOM>Nicole</PRENOM>
+         <NOM>Kidman</NOM>
+      </NOM>
+      <FILMS>
+         <FILM titre="Eyes Wide Shut"/>
+      </FILMS>
+   </ACTEUR>
+   <ACTEUR>
+      <NOM>
+         <PRENOM>Jack</PRENOM>
+         <NOM>Nicholson</NOM>
+      </NOM>
+      <FILMS>
+         <FILM titre="Shining"/>
+      </FILMS>
+   </ACTEUR>
+   <ACTEUR>
+      <NOM>
+         <PRENOM>Cary</PRENOM>
+         <NOM>Grant</NOM>
+      </NOM>
+      <FILMS>
+         <FILM titre="La mort aux trousses"/>
+      </FILMS>
+   </ACTEUR>
+   <ACTEUR>
+      <NOM>
+         <PRENOM>Eva Marie</PRENOM>
+         <NOM>Saint</NOM>
+      </NOM>
+      <FILMS>
+         <FILM titre="La mort aux trousses"/>
+      </FILMS>
+   </ACTEUR>
+   <ACTEUR>
+      <NOM>
+         <PRENOM>James</PRENOM>
+         <NOM>Mason</NOM>
+      </NOM>
+      <FILMS>
+         <FILM titre="La mort aux trousses"/>
+      </FILMS>
+   </ACTEUR>
+   <ACTEUR>
+      <NOM>
+         <PRENOM>Milla</PRENOM>
+         <NOM>Jovovich</NOM>
+      </NOM>
+      <FILMS>
+         <FILM titre="Jeanne d_Arc"/>
+         <FILM titre="Le cinquième élément"/>
+      </FILMS>
+   </ACTEUR>
+   <ACTEUR>
+      <NOM>
+         <PRENOM>Fane</PRENOM>
+         <NOM>Dunaway</NOM>
+      </NOM>
+      <FILMS>
+         <FILM titre="Jeanne d_Arc"/>
+      </FILMS>
+   </ACTEUR>
+   <ACTEUR>
+      <NOM>
+         <PRENOM>John</PRENOM>
+         <NOM>Malkovitch</NOM>
+      </NOM>
+      <FILMS>
+         <FILM titre="Jeanne d_Arc"/>
+      </FILMS>
+   </ACTEUR>
+   <ACTEUR>
+      <NOM>
+         <PRENOM>Gary</PRENOM>
+         <NOM>Oldman</NOM>
+      </NOM>
+      <FILMS>
+         <FILM titre="Le cinquième élément"/>
+         <FILM titre="Léon"/>
+      </FILMS>
+   </ACTEUR>
+   <ACTEUR>
+      <NOM>
+         <PRENOM>Ian</PRENOM>
+         <NOM>Holm</NOM>
+      </NOM>
+      <FILMS>
+         <FILM titre="Le cinquième élément"/>
+      </FILMS>
+   </ACTEUR>
+   <ACTEUR>
+      <NOM>
+         <PRENOM>Natalie</PRENOM>
+         <NOM>Portman</NOM>
+      </NOM>
+      <FILMS>
+         <FILM titre="Léon"/>
+      </FILMS>
+   </ACTEUR>
+</xml>
