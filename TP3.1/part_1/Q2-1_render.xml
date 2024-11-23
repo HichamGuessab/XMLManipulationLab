@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html>
+   <div>
+      <p style="color:yellow;">
+         <TITLE>Learn Java Now</TITLE>
+      </p>
+      <p style="color:blue;">
+         <PRICE>9.95</PRICE>
+      </p>
+   </div>
+   <div>
+      <p style="color:yellow;">
+         <TITLE>Language &amp; the Science of Number</TITLE>
+      </p>
+      <p style="color:blue;">
+         <PRICE>8.95</PRICE>
+      </p>
+   </div>
+   <div>
+      <p style="color:yellow;">
+         <TITLE>Tales of Grandpa Cat</TITLE>
+      </p>
+      <p style="color:blue;">
+         <PRICE>6.58</PRICE>
+      </p>
+   </div>
+   <div>
+      <p style="color:yellow;">
+         <TITLE>Number, the Language of Science</TITLE>
+      </p>
+      <p style="color:blue;">
+         <PRICE>5.95</PRICE>
+      </p>
+   </div>
+   <div>
+      <p style="color:yellow;">
+         <TITLE>Evolution of Complexity in Animal Culture</TITLE>
+      </p>
+      <p style="color:blue;">
+         <PRICE>5.95</PRICE>
+      </p>
+   </div>
+   <div>
+      <p style="color:yellow;">
+         <TITLE>Design Patterns</TITLE>
+      </p>
+      <p style="color:blue;">
+         <PRICE>49.95</PRICE>
+      </p>
+   </div>
+   <div>
+      <p style="color:yellow;">
+         <TITLE>When We Were Very Young</TITLE>
+      </p>
+      <p style="color:blue;">
+         <PRICE>12.50</PRICE>
+      </p>
+   </div>
+</html>
