@@ -6,7 +6,7 @@
                 <title>Les planètes</title>
             </head>
             <body>
-                <!-- USING FOREACH = rendu_V2.html -->
+                <!-- USING FOREACH = rendu_Q1_V2.html -->
                 <xsl:for-each select="systeme_solaire/planete">
                     <p>
                         <b><xsl:value-of select="nom"/> :</b>
