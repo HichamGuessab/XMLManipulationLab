@@ -30,6 +30,11 @@
                 <xsl:value-of select="diametre"/>
                 <xsl:value-of select="diametre/@unit"/>
             </li>
+            <xsl:if test="satellite">
+                <li>Nombre de satellites:
+                    <xsl:value-of select="satellite"/>
+                </li>
+            </xsl:if>
         </ul>
     </xsl:template>
 </xsl:stylesheet>
