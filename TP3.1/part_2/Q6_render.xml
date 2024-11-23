@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xml>
+   <FILM titre="Le cinquième élément">
+      <ANNEE>1997</ANNEE>
+
+      <GENRE>Science-fiction</GENRE>
+
+      <PAYS>FR</PAYS>
+
+      <MES>Besson</MES>
+
+      <ROLES>
+         <ROLE acteur="27">Major Korben Dalla</ROLE>
+
+         <ROLE acteur="112">Leeloo</ROLE>
+
+         <ROLE acteur="116">Jean-Baptiste Emmanuel Zorg</ROLE>
+
+         <ROLE acteur="117">Vito Cornelius</ROLE>
+      </ROLES>
+   </FILM>
+</xml>
