@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xml>
+   <metteur-en-scene>
+      <nom>
+         <PRENOM>Ridley</PRENOM>
+         <PRENOM>Tony</PRENOM>
+         <NOM>Scott</NOM>
+         <NOM>Scott</NOM>
+      </nom>
+      <films>
+         <film titre="Alien"/>
+         <film titre="Gladiator"/>
+         <film titre="Blade Runner"/>
+         <film titre="Top Gun"/>
+      </films>
+   </metteur-en-scene>
+   <metteur-en-scene>
+      <nom>
+         <PRENOM>James</PRENOM>
+         <NOM>Cameron</NOM>
+      </nom>
+      <films>
+         <film titre="Titanic"/>
+         <film titre="Terminator"/>
+      </films>
+   </metteur-en-scene>
+   <metteur-en-scene>
+      <nom>
+         <PRENOM>Andrei</PRENOM>
+         <NOM>Tarkovski</NOM>
+      </nom>
+      <films>
+         <film titre="Sacrifice"/>
+      </films>
+   </metteur-en-scene>
+   <metteur-en-scene>
+      <nom>
+         <PRENOM>John</PRENOM>
+         <NOM>Woo</NOM>
+      </nom>
+      <films>
+         <film titre="Volte/Face"/>
+      </films>
+   </metteur-en-scene>
+   <metteur-en-scene>
+      <nom>
+         <PRENOM>Tim</PRENOM>
+         <NOM>Burton</NOM>
+      </nom>
+      <films>
+         <film titre="Sleepy Hollow"/>
+      </films>
+   </metteur-en-scene>
+   <metteur-en-scene>
+      <nom>
+         <PRENOM>Sam</PRENOM>
+         <NOM>Mendes</NOM>
+      </nom>
+      <films>
+         <film titre="American Beauty"/>
+      </films>
+   </metteur-en-scene>
+   <metteur-en-scene>
+      <nom>
+         <PRENOM>Clint</PRENOM>
+         <NOM>Eastwood</NOM>
+      </nom>
+      <films>
+         <film titre="Impitoyable"/>
+         <film titre="Les pleins pouvoirs"/>
+      </films>
+   </metteur-en-scene>
+   <metteur-en-scene>
+      <nom>
+         <PRENOM>John</PRENOM>
+         <NOM>McTierman</NOM>
+      </nom>
+      <films>
+         <film titre="Piège de cristal"/>
+      </films>
+   </metteur-en-scene>
+   <metteur-en-scene>
+      <nom>
+         <PRENOM>Luc</PRENOM>
+         <NOM>Besson</NOM>
+      </nom>
+      <films>
+         <film titre="Le grand bleu"/>
+         <film titre="Nikita"/>
+         <film titre="Jeanne d_Arc"/>
+         <film titre="Le cinquième élément"/>
+         <film titre="Léon"/>
+      </films>
+   </metteur-en-scene>
+   <metteur-en-scene>
+      <nom>
+         <PRENOM>Renny</PRENOM>
+         <NOM>Harlin</NOM>
+      </nom>
+      <films>
+         <film titre="58 minutes pour vivre"/>
+      </films>
+   </metteur-en-scene>
+   <metteur-en-scene>
+      <nom>
+         <PRENOM>Maurice</PRENOM>
+         <NOM>Pialat</NOM>
+      </nom>
+      <films>
+         <film titre="Van Gogh"/>
+      </films>
+   </metteur-en-scene>
+   <metteur-en-scene>
+      <nom>
+         <PRENOM>David</PRENOM>
+         <NOM>Fincher</NOM>
+      </nom>
+      <films>
+         <film titre="Seven"/>
+      </films>
+   </metteur-en-scene>
+   <metteur-en-scene>
+      <nom>
+         <PRENOM>Terry</PRENOM>
+         <NOM>Gilliam</NOM>
+      </nom>
+      <films>
+         <film titre="L_armée des douze singes"/>
+      </films>
+   </metteur-en-scene>
+   <metteur-en-scene>
+      <nom>
+         <PRENOM>Jean-Jacques</PRENOM>
+         <NOM>Annaud</NOM>
+      </nom>
+      <films>
+         <film titre="Le nom de la rose"/>
+      </films>
+   </metteur-en-scene>
+   <metteur-en-scene>
+      <nom>
+         <PRENOM>Alfred</PRENOM>
+         <NOM>Hitchcock</NOM>
+      </nom>
+      <films>
+         <film titre="Vertigo"/>
+         <film titre="Psychose"/>
+         <film titre="Les oiseaux"/>
+         <film titre="Pas de printemps pour Marnie"/>
+         <film titre="Fenêtre sur cour"/>
+         <film titre="La mort aux trousses"/>
+      </films>
+   </metteur-en-scene>
+   <metteur-en-scene>
+      <nom>
+         <PRENOM>Quentin</PRENOM>
+         <NOM>Tarantino</NOM>
+      </nom>
+      <films>
+         <film titre="Pulp fiction"/>
+         <film titre="Reservoir dogs"/>
+      </films>
+   </metteur-en-scene>
+   <metteur-en-scene>
+      <nom>
+         <PRENOM>Bobby</PRENOM>
+         <NOM>Farrelly</NOM>
+      </nom>
+      <films>
+         <film titre="Mary à tout prix"/>
+      </films>
+   </metteur-en-scene>
+   <metteur-en-scene>
+      <nom>
+         <PRENOM>Steven</PRENOM>
+         <NOM>Spielberg</NOM>
+      </nom>
+      <films>
+         <film titre="Les dents de la mer"/>
+         <film titre="Le monde perdu"/>
+      </films>
+   </metteur-en-scene>
+   <metteur-en-scene>
+      <nom>
+         <PRENOM>Jonathan</PRENOM>
+         <NOM>Demme</NOM>
+      </nom>
+      <films>
+         <film titre="Le silence des agneaux"/>
+      </films>
+   </metteur-en-scene>
+   <metteur-en-scene>
+      <nom>
+         <PRENOM>Brenda</PRENOM>
+         <NOM>Chapman</NOM>
+      </nom>
+      <films>
+         <film titre="Le prince d_Egypte"/>
+      </films>
+   </metteur-en-scene>
+   <metteur-en-scene>
+      <nom>
+         <PRENOM>Roland</PRENOM>
+         <NOM>Emmerich</NOM>
+      </nom>
+      <films>
+         <film titre="Godzilla"/>
+      </films>
+   </metteur-en-scene>
+   <metteur-en-scene>
+      <nom>
+         <PRENOM>Andy</PRENOM>
+         <NOM>Wachowski</NOM>
+      </nom>
+      <films>
+         <film titre="Matrix"/>
+      </films>
+   </metteur-en-scene>
+   <metteur-en-scene>
+      <nom>
+         <PRENOM>Akira</PRENOM>
+         <NOM>Kurozawa</NOM>
+      </nom>
+      <films>
+         <film titre="Kagemusha"/>
+      </films>
+   </metteur-en-scene>
+   <metteur-en-scene>
+      <nom>
+         <PRENOM>Jean</PRENOM>
+         <NOM>Girault</NOM>
+      </nom>
+      <films>
+         <film titre="Le gendarme et les extra-terrestres"/>
+      </films>
+   </metteur-en-scene>
+   <metteur-en-scene>
+      <nom>
+         <PRENOM>Hervé</PRENOM>
+         <NOM>Palud</NOM>
+      </nom>
+      <films>
+         <film titre="Les frères pétards"/>
+      </films>
+   </metteur-en-scene>
+   <metteur-en-scene>
+      <nom>
+         <PRENOM>Barry</PRENOM>
+         <NOM>Levinson</NOM>
+      </nom>
+      <films>
+         <film titre="Rain Man"/>
+      </films>
+   </metteur-en-scene>
+   <metteur-en-scene>
+      <nom>
+         <PRENOM>Patrice</PRENOM>
+         <NOM>Leconte</NOM>
+      </nom>
+      <films>
+         <film titre="Les bronzés font du ski"/>
+      </films>
+   </metteur-en-scene>
+   <metteur-en-scene>
+      <nom>
+         <PRENOM>Marie</PRENOM>
+         <NOM>Pernnou</NOM>
+      </nom>
+      <films>
+         <film titre="MICROCOSMOS"/>
+      </films>
+   </metteur-en-scene>
+   <metteur-en-scene>
+      <nom>
+         <PRENOM>Richard</PRENOM>
+         <NOM>Marquand</NOM>
+      </nom>
+      <films>
+         <film titre="Le retour du Jedi"/>
+      </films>
+   </metteur-en-scene>
+   <metteur-en-scene>
+      <nom>
+         <PRENOM>Stanley</PRENOM>
+         <NOM>Kubrick</NOM>
+      </nom>
+      <films>
+         <film titre="Eyes Wide Shut"/>
+         <film titre="Shining"/>
+      </films>
+   </metteur-en-scene>
+</xml>
