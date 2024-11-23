@@ -125,7 +125,7 @@ Pour cela, nous allons utiliser la barre XPath fournie par `Exchanger XML`, mais
 
 Avec la console de visualisation (onglets "XPath results" dans la fenêtre des messages en bas), faites les recherches suivantes :
 
-1. Affichez tous les titres de films : `//FILM/@titre`.
+1. Un exemple pour commencer : Affichez tous les titres de films : `//FILM/@titre`.
 2. Affichez le genre du film "Seven".
 3. Cherchez les titres de tous les drames.
 4. Cherchez les titres de tous les films du même genre que le film "58 minutes pour vivre".
