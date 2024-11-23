@@ -9,7 +9,7 @@
                 <!-- USING APPLY TEMPLATES = rendu_Q1_V1.html -->
                 <!-- Le apply templates et l'implémentation la plus appropriée car elle permet une meilleure modularité,
                      une meilleure lisibilité et également une meilleure ré-utilisabilité qu'une boucle foreach -->
-                <xsl:apply-templates select="systeme_solaire/planete"/>
+                <xsl:apply-templates select="systeme_solaire/planete[nom != 'Terre']"/>
             </body>
         </html>
     </xsl:template>
