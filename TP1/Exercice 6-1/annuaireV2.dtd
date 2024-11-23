@@ -1,0 +1,24 @@
+<!ELEMENT annuaire (personne*, societe*)>
+
+<!ELEMENT personne (nom, prenom, email?, telephone_personnel+, activite)>
+<!ELEMENT nom (#PCDATA)>
+    <!ATTLIST nom nom_de_naissance CDATA #IMPLIED>
+<!ELEMENT prenom (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT telephone_personnel (#PCDATA)>
+<!ELEMENT activite (#PCDATA)>
+
+<!ELEMENT societe (nom_societe, branche+, info_directeur, avis?)>
+<!ELEMENT nom_societe (#PCDATA)>
+<!ELEMENT branche (adresse, telephone_branche)>
+    <!ATTLIST branche jours_fermeture CDATA "Dimanche">
+    <!ATTLIST branche annee_d_ouverture (2024 | 2023 | 2022 | avant_2022 | inconnue) "inconnue">
+<!ELEMENT jours_fermeture (#PCDATA)>
+<!ELEMENT adresse (#PCDATA)>
+<!ELEMENT telephone_branche (#PCDATA)>
+<!ELEMENT info_directeur EMPTY>
+    <!ATTLIST info_directeur
+            nom CDATA #REQUIRED
+            email CDATA #IMPLIED>
+<!ELEMENT avis (#PCDATA)>
+

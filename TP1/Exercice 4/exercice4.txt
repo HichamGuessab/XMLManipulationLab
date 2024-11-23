@@ -1,0 +1,23 @@
+Exercice 4.1 :
+Le grand-père de René : Emile
+Le fils de Jacques : Lukas
+L'oncle de Pierre : Mattis
+Le père de Mattis : Matteo
+Qui est Jacques par rapport à Paul ? : Ils sont cousins
+
+Exercice 4.2 :
+Le grand-père de René : Matteo
+Le fils de Jacques : Paul et Pierre
+L'oncle de Pierre : Gauttier et Lukas
+Le père de Mattis : il n'a pas de père
+Qui est Jacques par rapport à Paul ? : Jacques est le père de Paul
+
+En effet, le document non-indenté est lourd à analyser
+si on ne l'indente pas juste après.
+
+Exercice 4.3 :
+Le grand-père de René : Non mentionné
+Le fils de Jacques : Matteo et Emile
+L'oncle de Pierre : pas d'oncle
+Le père de Mattis : Paul
+Qui est Jacques par rapport à Paul ? : Jacques est l'oncle de Paul

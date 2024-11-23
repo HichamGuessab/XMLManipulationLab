@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<document1>
+    <input>
+        <![CDATA[
+            <bibliothèque>
+                <livre id='1'>
+                    <nom>les misérables</nom>
+                    <1auteur>Victor Hugo</1auteur>
+                <année>1832</année>
+            </livre>
+            <livre id='2'>
+            <nom>Tintin</nom>
+            <2auteur>Bertrand</2auteur>
+            <$année$>1930</année>
+                    </livre>
+        ]]>
+    </input>
+    <correction>
+        <bibliothèque>
+            <livre id='1'>
+                <nom>Les Misérables</nom>
+                <auteur>Victor Hugo</auteur>
+                <année>1832</année>
+            </livre>
+            <livre id='2'>
+                <nom>Tintin</nom>
+                <auteur>Bertrand</auteur>
+                <année>1930</année>
+            </livre>
+        </bibliothèque>
+    </correction>
+    <retours>
+        <retour id='1'>Les caractères spéciaux ne sont pas autorisés</retour>
+        <retour id='2'>Les éléments XML ne peuvent pas commencer par un chiffre.</retour>
+    </retours>
+</document1>

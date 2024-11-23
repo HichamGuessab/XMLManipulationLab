@@ -1,0 +1,7 @@
+Question 2.1 :
+
+En XML, les commentaires s'écrivent comme ceci :
+
+<!-- Ceci est un commentaire en XML -->
+
+Il ne faut également pas qu'ils contiennent de "--" à l'intérieur du commentaire.

@@ -1,0 +1,12 @@
+Question 2.2 :
+
+Les CDATA (Character Data) permet d'inclure des données de texte brut qui ne seront pas analysées par le parseur XML. Cela signifie que vous pouvez inclure des caractères spéciaux (comme <, >, ou &) sans qu'ils soient interprétés comme des balises ou des entités.
+Une section CDATA commence par <![CDATA[ et se termine par ]]>.
+
+<exemple>
+  <![CDATA[
+  Ce texte <b>ne sera pas interprété</b> comme du XML.
+  ]]>
+</exemple>
+
+Les caractères spéciaux comme <, > et & y sont autorisés.

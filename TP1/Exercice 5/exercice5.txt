@@ -1,0 +1,12 @@
+Exercice 5 : Reprendre l'exercice 3 et représenter le document 2 sous forme d'un arbre.
+
+xml
+│
+xsl:stylesheet
+│
+├── xsl:template (match="/")
+│   └── xsl:apply-templates
+│
+└── xsl:template (match="@* | * | text()")
+    └── xsl:copy
+        └── xsl:apply-templates (select="@* | * | text()")

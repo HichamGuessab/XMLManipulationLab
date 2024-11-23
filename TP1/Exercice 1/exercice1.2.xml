@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exercice1.2>
+    <titre>TP1.1 Bases de XML</titre>
+
+    <exercice numero="1">
+        <titre>Structuration de documents</titre>
+
+        <section numero="1.1">
+            <titre>Structuration d'information</titre>
+            <description>
+                <p>XML permet de structurer un document selon les informations qu'il contient...</p>
+                <p>Réorganiser l'information pour mettre en évidence sa structure logique...</p>
+            </description>
+            <question>
+                <texte>Commenter la faisabilité et les difficultés de cette structuration.</texte>
+            </question>
+        </section>
+
+        <section numero="1.2">
+            <titre>Description de texte</titre>
+            <description>
+                <p>Nous cherchons à décrire le texte de ce sujet de TP lui-même...</p>
+            </description>
+            <question>
+                <texte>Proposer un document XML qui rende compte de son organisation hiérarchique.</texte>
+            </question>
+        </section>
+    </exercice>
+
+    <exercice numero="2">
+        <titre>Quelques recherches sur la syntaxe XML</titre>
+
+        <section numero="2.1">
+            <question>
+                <texte>Comment écrire des commentaires en XML ?</texte>
+            </question>
+        </section>
+
+        <section numero="2.2">
+            <question>
+                <texte>A quoi servent les CDATA ? Donner un exemple.</texte>
+            </question>
+        </section>
+    </exercice>
+
+    <exercice numero="3">
+        <titre>Respect de la syntaxe du XML</titre>
+        <section numero="3.1">
+            <description>
+                <p>Voici une série de documents XML, vous devrez indiquer si ces documents sont bien formés...</p>
+            </description>
+            <documents>
+                <document numero="1">Document 1</document>
+                <document numero="2">Document 2</document>
+                <document numero="3">Document 3</document>
+            </documents>
+        </section>
+    </exercice>
+
+    <exercice numero="4">
+        <titre>Représentation dans un arbre</titre>
+        <description>Ma description...</description>
+        <section numero="4.1">
+            <question>
+                <texte>Ma question 1</texte>
+            </question>
+        </section>
+        <section numero="4.2">
+            <question>
+                <texte>Ma question 2</texte>
+            </question>
+        </section>
+        <section numero="4.3">
+            <question>
+                <texte>Ma question 3</texte>
+            </question>
+        </section>
+    </exercice>
+
+    <exercice numero="5">
+        <titre>Représentation en arbre</titre>
+        <description>Ma description...</description>
+    </exercice>
+
+    <exercice numero="6">
+        <titre>Structuration de données - DTD</titre>
+        <description>Ma description...</description>
+        <section numero="6.1">
+            <question1>Ma question 1</question1>
+        </section>
+        <section numero="6.2">
+            <question1>Ma question 1</question1>
+        </section>
+    </exercice>
+</exercice1.2>

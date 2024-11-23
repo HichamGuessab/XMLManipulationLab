@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exercice1>
+    <question1>
+        Une structure logique pourrait ressembler à une classification de type :
+        Système solaire
+        Soleil (parce que c'est le centre du système)
+        Planètes
+        Nom de la planète
+        Type (tellurique ou gazeuse)
+        Satellites (oui/non) <!-- On pourrait s'embêter à donner le nom des satellites -->
+        Anneaux (oui/non)
+        Atmosphère (description)
+        Composition (minéraux, gaz, etc.)
+    </question1>
+    <question2>
+        <systeme_solaire>
+            <etoile>
+                <nom>Soleil</nom>
+            </etoile>
+
+            <planetes>
+                <planete>
+                    <nom>Mercure</nom>
+                    <type>tellurique</type>
+                    <satellites>false</satellites>
+                    <anneaux>false</anneaux>
+                    <atmosphere>Sans atmosphère significative</atmosphere>
+                    <composition>
+                        <mineraux>silicates</mineraux>
+                        <metaux>fer, nickel</metaux>
+                    </composition>
+                </planete>
+
+                <planete>
+                    <nom>Vénus</nom>
+                    <type>tellurique</type>
+                    <satellites>false</satellites>
+                    <anneaux>false</anneaux>
+                    <atmosphere>Riche en gaz carbonique</atmosphere>
+                    <composition>
+                        <mineraux>silicates</mineraux>
+                        <metaux>fer, nickel</metaux>
+                    </composition>
+                </planete>
+
+                <planete>
+                    <nom>Terre</nom>
+                    <type>tellurique</type>
+                    <satellites>true</satellites>
+                    <anneaux>false</anneaux>
+                    <atmosphere>21% d'oxygène</atmosphere>
+                    <composition>
+                        <mineraux>silicates</mineraux>
+                        <metaux>fer, nickel</metaux>
+                    </composition>
+                </planete>
+
+                <planete>
+                    <nom>Mars</nom>
+                    <type>tellurique</type>
+                    <satellites>true</satellites>
+                    <anneaux>false</anneaux>
+                    <atmosphere>Riche en gaz carbonique</atmosphere>
+                    <composition>
+                        <mineraux>silicates</mineraux>
+                        <metaux>fer, nickel</metaux>
+                    </composition>
+                </planete>
+
+                <planete>
+                    <nom>Jupiter</nom>
+                    <type>géante gazeuse</type>
+                    <satellites>true</satellites>
+                    <anneaux>true</anneaux>
+                    <atmosphere>Hydrogène, hélium</atmosphere>
+                    <composition>
+                        <gaz>hydrogène, hélium</gaz>
+                        <glaces/>
+                    </composition>
+                </planete>
+
+                <planete>
+                    <nom>Saturne</nom>
+                    <type>géante gazeuse</type>
+                    <satellites>true</satellites>
+                    <anneaux>true</anneaux>
+                    <atmosphere>Hydrogène, hélium</atmosphere>
+                    <composition>
+                        <gaz>hydrogène, hélium</gaz>
+                        <glaces/>
+                    </composition>
+                </planete>
+
+                <planete>
+                    <nom>Uranus</nom>
+                    <type>géante gazeuse</type>
+                    <satellites>true</satellites>
+                    <anneaux>true</anneaux>
+                    <atmosphere>Hydrogène, hélium, glaces</atmosphere>
+                    <composition>
+                        <gaz>hydrogène, hélium</gaz>
+                        <glaces>true</glaces>
+                    </composition>
+                </planete>
+
+                <planete>
+                    <nom>Neptune</nom>
+                    <type>géante gazeuse</type>
+                    <satellites>true</satellites>
+                    <anneaux>true</anneaux>
+                    <atmosphere>Hydrogène, hélium, glaces</atmosphere>
+                    <composition>
+                        <gaz>hydrogène, hélium</gaz>
+                        <glaces>true</glaces>
+                    </composition>
+                </planete>
+            </planetes>
+        </systeme_solaire>
+    </question2>
+    <question3>
+        Structurer les informations du système solaire en XML est assez simple car les relations entre les objets sont assez simples et facilement hiérarchisable.
+        Cependant, structurer directement le texte pourrait être assez compliqué étant donné toutes les formulations de phrases à revoir.
+    </question3>
+</exercice1>

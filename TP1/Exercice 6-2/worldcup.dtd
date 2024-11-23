@@ -1,0 +1,13 @@
+<!ELEMENT worldcup (journee+)>
+<!ELEMENT journee (match+)>
+    <!ELEMENT match (date, horaire, equipe+, resultat)>
+        <!ELEMENT date (#PCDATA)>
+        <!ELEMENT horaire (#PCDATA)>
+        <!ELEMENT equipe (nom, capitaine, entraineur+)>
+            <!ELEMENT nom (#PCDATA)>
+            <!ELEMENT capitaine (#PCDATA)>
+            <!ELEMENT entraineur (#PCDATA)>
+        <!ELEMENT resultat (score+)>
+            <!ELEMENT score (nom_equipe, points)>
+                <!ELEMENT nom_equipe (#PCDATA)>
+                <!ELEMENT points (#PCDATA)>

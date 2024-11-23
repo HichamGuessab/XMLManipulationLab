@@ -1,0 +1,6 @@
+Pour valider la DTD, il me suffit d'ouvrir le fichier, d'aller dans le menu, dans SCHEMA et de cliquer sur Validate DTD.
+Pour valider le XML, il me suffit d'ouvrir le fichier, d'aller dans le menu, dans XML et de cliquer sur Validate XML.
+
+Sur la deuxième version, j'ai eu un souci concernant l'énumération : il ne doit pas y avoir d'espace dans chaque valeur.
+
+Les deux versions sont finalement valides.

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<document2>
+    <input>
+        <![CDATA[
+            <?xml version="1.0" encoding="ISO-8859-1"?>
+            <!-- encoding="ISO-8859-1" n'est en fait pas nécessaire pour un fichier en anglais -->
+            <xsl:stylesheet xmlns:xsl="http://www.w3.org/TR/WD-xsl">
+                <!-- Se positionner sur la racine du document -->
+                <xsl:template match="/">
+                    <xsl:apply-templates >
+                </xsl:template>
+                <!-- Reproduire le document à l'identique -->
+                <xsl:template match="@* | * | text()">
+                    <xsl:copy>
+                    <xsl:apply-templates select="@* | * | text()"/>
+                    <!-- Attention : ne pas couper la ligne suivante pour ne pas introduire d'espaces parasites -->
+                </xsl:template$>$ $<$/xsl:copy>
+            </xsl:stylesheet>
+        ]]>
+    </input>
+    <correction>
+        <?xml version="1.0" encoding="ISO-8859-1"?>
+        <!-- encoding="ISO-8859-1" n'est en fait pas nécessaire pour un fichier en anglais -->
+        <xsl:stylesheet xmlns:xsl="http://www.w3.org/TR/WD-xsl">
+            <!-- Se positionner sur la racine du document -->
+            <xsl:template match="/">
+                <xsl:apply-templates />
+            </xsl:template>
+
+            <!-- Reproduire le document à l'identique -->
+            <xsl:template match="@* | * | text()">
+                <xsl:copy>
+                    <xsl:apply-templates select="@* | * | text()"/>
+                </xsl:copy>
+            </xsl:template>
+        </xsl:stylesheet>
+    </correction>
+    <retours>
+        <retour id="1">Caractère spécial dans xsl:template$>.</retour>
+        <retour id="2">Balise xsl:copy </retour>
+    </retours>
+</document2>
+
+

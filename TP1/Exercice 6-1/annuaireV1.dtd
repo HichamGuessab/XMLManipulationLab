@@ -1,0 +1,25 @@
+<!ELEMENT annuaire (personne*, societe*)>
+
+<!ELEMENT personne (nom, prenom, email?, telephone_personnel+, activite)>
+<!ELEMENT nom (#PCDATA)>
+<!ELEMENT prenom (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT telephone_personnel (#PCDATA)>
+<!ELEMENT activite (#PCDATA)>
+
+<!ELEMENT societe (nom_societe, branche+, info_directeur, avis?)>
+<!ELEMENT nom_societe (#PCDATA)>
+<!ELEMENT branche (adresse, telephone_branche, jours_fermeture, annee_ouverture)>
+<!ELEMENT adresse (#PCDATA)>
+<!ELEMENT telephone_branche (#PCDATA)>
+<!ELEMENT jours_fermeture (#PCDATA)>
+<!ELEMENT annee_ouverture (#PCDATA)>
+<!ELEMENT info_directeur (nom, email)>
+<!ELEMENT avis (#PCDATA)>
+
+<!-- On pourrait aussi factoriser comme étant des éléments globaux
+        nom/nom_societe en un seul élément 'nom'
+            et
+        telephone_personnel/telephone_branche en un seul élément 'telephone'
+        mais j'ai préféré avoir des éléments distincts afin d'en faciliter la récupération
+-->

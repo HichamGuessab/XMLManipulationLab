@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!DOCTYPE annuaire SYSTEM "annuaireV2.dtd">
+<annuaire>
+    <personne>
+        <nom nom_de_naissance="Guessab">Guessab</nom>
+        <prenom>Hicham</prenom>
+        <email>hicham.guessab@example.com</email>
+        <telephone_personnel>0123456789</telephone_personnel>
+        <activite>Développeur</activite>
+    </personne>
+    <societe>
+        <nom_societe>Inovich</nom_societe>
+        <branche
+                jours_fermeture="Samedi"
+                annee_d_ouverture="2023">
+            <adresse>123 rue de Paris</adresse>
+            <telephone_branche>0123456789</telephone_branche>
+        </branche>
+        <info_directeur nom="Marie Curie" email="marie.curie@techcorp.com"/>
+        <avis>Excellente entreprise innovante.</avis>
+    </societe>
+</annuaire>

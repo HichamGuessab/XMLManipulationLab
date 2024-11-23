@@ -1,0 +1,108 @@
+<?xml version="1.0"?>
+<!DOCTYPE worldcup SYSTEM "worldcup.dtd">
+<worldcup>
+    <journee>
+        <match>
+            <date>2024-06-14</date>
+            <horaire>18:00</horaire>
+            <equipe>
+                <nom>Les croissants</nom>
+                <capitaine>Jean Pain</capitaine>
+                <entraineur>Chef Baguette</entraineur>
+            </equipe>
+            <equipe>
+                <nom>Les cocotiers</nom>
+                <capitaine>Pedro Palme</capitaine>
+                <entraineur>Maître Plage</entraineur>
+            </equipe>
+            <resultat>
+                <score>
+                    <nom_equipe>Les croissants</nom_equipe>
+                    <points>2</points>
+                </score>
+                <score>
+                    <nom_equipe>Les cocotiers</nom_equipe>
+                    <points>1</points>
+                </score>
+            </resultat>
+        </match>
+        <match>
+            <date>2024-06-14</date>
+            <horaire>21:00</horaire>
+            <equipe>
+                <nom>Les empanadas</nom>
+                <capitaine>Juan Tartine</capitaine>
+                <entraineur>Monsieur Piquante</entraineur>
+            </equipe>
+            <equipe>
+                <nom>Les saucisses</nom>
+                <capitaine>Karl Curry</capitaine>
+                <entraineur>Herr Bratwurst</entraineur>
+            </equipe>
+            <resultat>
+                <score>
+                    <nom_equipe>Les empanadas</nom_equipe>
+                    <points>1</points>
+                </score>
+                <score>
+                    <nom_equipe>Les saucisses</nom_equipe>
+                    <points>1</points>
+                </score>
+            </resultat>
+        </match>
+    </journee>
+
+    <journee>
+        <match>
+            <date>2024-06-15</date>
+            <horaire>18:00</horaire>
+            <equipe>
+                <nom>Les sombreros</nom>
+                <capitaine>Pablo Chapeau</capitaine>
+                <entraineur>Señor Fiesta</entraineur>
+            </equipe>
+            <equipe>
+                <nom>Les pizzas</nom>
+                <capitaine>Luigi Mozzarella</capitaine>
+                <entraineur>Chef Pâtes</entraineur>
+            </equipe>
+            <resultat>
+                <score>
+                    <nom_equipe>Les sombreros</nom_equipe>
+                    <points>3</points>
+                </score>
+                <score>
+                    <nom_equipe>Les pizzas</nom_equipe>
+                    <points>2</points>
+                </score>
+            </resultat>
+        </match>
+    </journee>
+
+    <journee>
+        <match>
+            <date>2024-06-16</date>
+            <horaire>18:00</horaire>
+            <equipe>
+                <nom>Les clics</nom>
+                <capitaine>Al Click</capitaine>
+                <entraineur>Master Mouse</entraineur>
+            </equipe>
+            <equipe>
+                <nom>Les clacs</nom>
+                <capitaine>Hicham LEBOSS</capitaine>
+                <entraineur>Sir TapTap</entraineur>
+            </equipe>
+            <resultat>
+                <score>
+                    <nom_equipe>Les clics</nom_equipe>
+                    <points>2</points>
+                </score>
+                <score>
+                    <nom_equipe>Les clacs</nom_equipe>
+                    <points>716</points>
+                </score>
+            </resultat>
+        </match>
+    </journee>
+</worldcup>

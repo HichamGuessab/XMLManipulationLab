@@ -1,0 +1,16 @@
+<?xml version ="1.0" ?>
+<article>
+    <retour>Ce document ne présente pas d'erreurs.</retour>
+    <editeur nom="EYROLLES">
+        <adresse>
+            <rue>1, rue Thénard</rue>
+            <cp>75005</cp>
+            <ville>Paris</ville>
+        </adresse>
+    </editeur>
+    <topic>
+        <title>XML : le guide de l’utilisateur</title>
+        <author>Elliotte Rusty Harold</author>
+        <editeur nom="EYROLLES"/>
+    </topic>
+</article>
