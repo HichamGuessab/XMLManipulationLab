@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xml>
+   <genre name="Science-fiction" count="6"/>
+   <genre name="Drame" count="7"/>
+   <genre name="Action" count="8"/>
+   <genre name="Fantastique" count="1"/>
+   <genre name="Comédie" count="5"/>
+   <genre name="Western" count="1"/>
+   <genre name="Policier" count="5"/>
+   <genre name="Horreur" count="4"/>
+   <genre name="Dessin animé" count="1"/>
+   <genre name="Guerre" count="2"/>
+   <genre name="Thriller" count="4"/>
+   <genre name="Documentaire" count="1"/>
+   <genre name="Suspense" count="2"/>
+</xml>
