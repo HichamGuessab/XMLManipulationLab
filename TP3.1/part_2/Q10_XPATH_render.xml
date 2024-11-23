@@ -1,0 +1,521 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xml>
+   <ACTEUR>
+      <NOM>Sigourney Weaver</NOM>
+      <FILMS>
+         <FILM titre="Alien"/>
+      </FILMS>
+   </ACTEUR>
+   <ACTEUR>
+      <NOM>Kate Winslet</NOM>
+      <FILMS>
+         <FILM titre="Titanic"/>
+      </FILMS>
+   </ACTEUR>
+   <ACTEUR>
+      <NOM>Leonardo DiCaprio</NOM>
+      <FILMS>
+         <FILM titre="Titanic"/>
+      </FILMS>
+   </ACTEUR>
+   <ACTEUR>
+      <NOM>John Travolta</NOM>
+      <FILMS>
+         <FILM titre="Volte/Face"/>
+         <FILM titre="Pulp fiction"/>
+      </FILMS>
+   </ACTEUR>
+   <ACTEUR>
+      <NOM>Nicolas Cage</NOM>
+      <FILMS>
+         <FILM titre="Volte/Face"/>
+      </FILMS>
+   </ACTEUR>
+   <ACTEUR>
+      <NOM>Johnny Depp</NOM>
+      <FILMS>
+         <FILM titre="Sleepy Hollow"/>
+      </FILMS>
+   </ACTEUR>
+   <ACTEUR>
+      <NOM>Christina Ricci</NOM>
+      <FILMS>
+         <FILM titre="Sleepy Hollow"/>
+      </FILMS>
+   </ACTEUR>
+   <ACTEUR>
+      <NOM>Christopher Walken</NOM>
+      <FILMS>
+         <FILM titre="Sleepy Hollow"/>
+      </FILMS>
+   </ACTEUR>
+   <ACTEUR>
+      <NOM>Kevin Spacey</NOM>
+      <FILMS>
+         <FILM titre="American Beauty"/>
+         <FILM titre="Seven"/>
+      </FILMS>
+   </ACTEUR>
+   <ACTEUR>
+      <NOM>Anette Bening</NOM>
+      <FILMS>
+         <FILM titre="American Beauty"/>
+      </FILMS>
+   </ACTEUR>
+   <ACTEUR>
+      <NOM>Clint Eastwood</NOM>
+      <FILMS>
+         <FILM titre="Impitoyable"/>
+         <FILM titre="Les pleins pouvoirs"/>
+      </FILMS>
+   </ACTEUR>
+   <ACTEUR>
+      <NOM>Gene Hackman</NOM>
+      <FILMS>
+         <FILM titre="Impitoyable"/>
+         <FILM titre="Les pleins pouvoirs"/>
+      </FILMS>
+   </ACTEUR>
+   <ACTEUR>
+      <NOM>Morgan Freeman</NOM>
+      <FILMS>
+         <FILM titre="Impitoyable"/>
+         <FILM titre="Seven"/>
+      </FILMS>
+   </ACTEUR>
+   <ACTEUR>
+      <NOM>Russell Crowe</NOM>
+      <FILMS>
+         <FILM titre="Gladiator"/>
+      </FILMS>
+   </ACTEUR>
+   <ACTEUR>
+      <NOM>Harrison Ford</NOM>
+      <FILMS>
+         <FILM titre="Blade Runner"/>
+         <FILM titre="Le retour du Jedi"/>
+      </FILMS>
+   </ACTEUR>
+   <ACTEUR>
+      <NOM>Rutger Hauer</NOM>
+      <FILMS>
+         <FILM titre="Blade Runner"/>
+      </FILMS>
+   </ACTEUR>
+   <ACTEUR>
+      <NOM>Bruce Willis</NOM>
+      <FILMS>
+         <FILM titre="Piège de cristal"/>
+         <FILM titre="58 minutes pour vivre"/>
+         <FILM titre="L_armée des douze singes"/>
+         <FILM titre="Pulp fiction"/>
+         <FILM titre="Le cinquième élément"/>
+      </FILMS>
+   </ACTEUR>
+   <ACTEUR>
+      <NOM>Rosanna Arquette</NOM>
+      <FILMS>
+         <FILM titre="Le grand bleu"/>
+         <FILM titre="Pulp fiction"/>
+      </FILMS>
+   </ACTEUR>
+   <ACTEUR>
+      <NOM>Jean Reno</NOM>
+      <FILMS>
+         <FILM titre="Le grand bleu"/>
+         <FILM titre="Godzilla"/>
+         <FILM titre="Léon"/>
+      </FILMS>
+   </ACTEUR>
+   <ACTEUR>
+      <NOM>Jean-Marc Barr</NOM>
+      <FILMS>
+         <FILM titre="Le grand bleu"/>
+      </FILMS>
+   </ACTEUR>
+   <ACTEUR>
+      <NOM>Jacques Dutronc</NOM>
+      <FILMS>
+         <FILM titre="Van Gogh"/>
+      </FILMS>
+   </ACTEUR>
+   <ACTEUR>
+      <NOM>Brad Pitt</NOM>
+      <FILMS>
+         <FILM titre="Seven"/>
+      </FILMS>
+   </ACTEUR>
+   <ACTEUR>
+      <NOM>Sean Connery</NOM>
+      <FILMS>
+         <FILM titre="Le nom de la rose"/>
+         <FILM titre="Pas de printemps pour Marnie"/>
+      </FILMS>
+   </ACTEUR>
+   <ACTEUR>
+      <NOM>Christian Slater</NOM>
+      <FILMS>
+         <FILM titre="Le nom de la rose"/>
+      </FILMS>
+   </ACTEUR>
+   <ACTEUR>
+      <NOM>James Stewart</NOM>
+      <FILMS>
+         <FILM titre="Vertigo"/>
+      </FILMS>
+   </ACTEUR>
+   <ACTEUR>
+      <NOM>Kim Novak</NOM>
+      <FILMS>
+         <FILM titre="Vertigo"/>
+      </FILMS>
+   </ACTEUR>
+   <ACTEUR>
+      <NOM>Samuel L. Jackson</NOM>
+      <FILMS>
+         <FILM titre="Pulp fiction"/>
+      </FILMS>
+   </ACTEUR>
+   <ACTEUR>
+      <NOM>Uma Thurman</NOM>
+      <FILMS>
+         <FILM titre="Pulp fiction"/>
+      </FILMS>
+   </ACTEUR>
+   <ACTEUR>
+      <NOM>Cameron Diaz</NOM>
+      <FILMS>
+         <FILM titre="Mary à tout prix"/>
+      </FILMS>
+   </ACTEUR>
+   <ACTEUR>
+      <NOM>Mat Dillon</NOM>
+      <FILMS>
+         <FILM titre="Mary à tout prix"/>
+      </FILMS>
+   </ACTEUR>
+   <ACTEUR>
+      <NOM>Arnold Schwartzenegger</NOM>
+      <FILMS>
+         <FILM titre="Terminator"/>
+      </FILMS>
+   </ACTEUR>
+   <ACTEUR>
+      <NOM>Roy Sheider</NOM>
+      <FILMS>
+         <FILM titre="Les dents de la mer"/>
+      </FILMS>
+   </ACTEUR>
+   <ACTEUR>
+      <NOM>Robert Shaw</NOM>
+      <FILMS>
+         <FILM titre="Les dents de la mer"/>
+      </FILMS>
+   </ACTEUR>
+   <ACTEUR>
+      <NOM>Richard Dreyfus</NOM>
+      <FILMS>
+         <FILM titre="Les dents de la mer"/>
+      </FILMS>
+   </ACTEUR>
+   <ACTEUR>
+      <NOM>Anthony Hopkins</NOM>
+      <FILMS>
+         <FILM titre="Le silence des agneaux"/>
+      </FILMS>
+   </ACTEUR>
+   <ACTEUR>
+      <NOM>Jodie Foster</NOM>
+      <FILMS>
+         <FILM titre="Le silence des agneaux"/>
+      </FILMS>
+   </ACTEUR>
+   <ACTEUR>
+      <NOM>Val Kilmer</NOM>
+      <FILMS>
+         <FILM titre="Le prince d_Egypte"/>
+         <FILM titre="Top Gun"/>
+      </FILMS>
+   </ACTEUR>
+   <ACTEUR>
+      <NOM>Ralph Fiennes</NOM>
+      <FILMS>
+         <FILM titre="Le prince d_Egypte"/>
+      </FILMS>
+   </ACTEUR>
+   <ACTEUR>
+      <NOM>Michelle Pfeiffer</NOM>
+      <FILMS>
+         <FILM titre="Le prince d_Egypte"/>
+      </FILMS>
+   </ACTEUR>
+   <ACTEUR>
+      <NOM>Sandra Bullock</NOM>
+      <FILMS>
+         <FILM titre="Le prince d_Egypte"/>
+      </FILMS>
+   </ACTEUR>
+   <ACTEUR>
+      <NOM>Jeff Goldblum</NOM>
+      <FILMS>
+         <FILM titre="Le prince d_Egypte"/>
+         <FILM titre="Le monde perdu"/>
+      </FILMS>
+   </ACTEUR>
+   <ACTEUR>
+      <NOM>Matthew Broderick</NOM>
+      <FILMS>
+         <FILM titre="Godzilla"/>
+      </FILMS>
+   </ACTEUR>
+   <ACTEUR>
+      <NOM>Keanu Reeves</NOM>
+      <FILMS>
+         <FILM titre="Matrix"/>
+      </FILMS>
+   </ACTEUR>
+   <ACTEUR>
+      <NOM>Laurence Fishburne</NOM>
+      <FILMS>
+         <FILM titre="Matrix"/>
+      </FILMS>
+   </ACTEUR>
+   <ACTEUR>
+      <NOM>Ed Harris</NOM>
+      <FILMS>
+         <FILM titre="Les pleins pouvoirs"/>
+      </FILMS>
+   </ACTEUR>
+   <ACTEUR>
+      <NOM>Louis De Funès</NOM>
+      <FILMS>
+         <FILM titre="Le gendarme et les extra-terrestres"/>
+      </FILMS>
+   </ACTEUR>
+   <ACTEUR>
+      <NOM>Michel Galabru</NOM>
+      <FILMS>
+         <FILM titre="Le gendarme et les extra-terrestres"/>
+         <FILM titre="Les frères pétards"/>
+      </FILMS>
+   </ACTEUR>
+   <ACTEUR>
+      <NOM>Tchéky Karyo</NOM>
+      <FILMS>
+         <FILM titre="Nikita"/>
+         <FILM titre="Jeanne d_Arc"/>
+      </FILMS>
+   </ACTEUR>
+   <ACTEUR>
+      <NOM>Anne Parillaud</NOM>
+      <FILMS>
+         <FILM titre="Nikita"/>
+      </FILMS>
+   </ACTEUR>
+   <ACTEUR>
+      <NOM>Jean-Hughes Anglade</NOM>
+      <FILMS>
+         <FILM titre="Nikita"/>
+      </FILMS>
+   </ACTEUR>
+   <ACTEUR>
+      <NOM>Josiane Balasko</NOM>
+      <FILMS>
+         <FILM titre="Les frères pétards"/>
+         <FILM titre="Les bronzés font du ski"/>
+      </FILMS>
+   </ACTEUR>
+   <ACTEUR>
+      <NOM>Dominique Lavanant</NOM>
+      <FILMS>
+         <FILM titre="Les frères pétards"/>
+         <FILM titre="Les bronzés font du ski"/>
+      </FILMS>
+   </ACTEUR>
+   <ACTEUR>
+      <NOM>Gérard Lanvin</NOM>
+      <FILMS>
+         <FILM titre="Les frères pétards"/>
+      </FILMS>
+   </ACTEUR>
+   <ACTEUR>
+      <NOM>Jacques Villeret</NOM>
+      <FILMS>
+         <FILM titre="Les frères pétards"/>
+      </FILMS>
+   </ACTEUR>
+   <ACTEUR>
+      <NOM>Tom Cruise</NOM>
+      <FILMS>
+         <FILM titre="Rain Man"/>
+         <FILM titre="Top Gun"/>
+         <FILM titre="Eyes Wide Shut"/>
+      </FILMS>
+   </ACTEUR>
+   <ACTEUR>
+      <NOM>Dustin Hoffman</NOM>
+      <FILMS>
+         <FILM titre="Rain Man"/>
+         <FILM titre="Jeanne d_Arc"/>
+      </FILMS>
+   </ACTEUR>
+   <ACTEUR>
+      <NOM>Kelly McGillis</NOM>
+      <FILMS>
+         <FILM titre="Top Gun"/>
+      </FILMS>
+   </ACTEUR>
+   <ACTEUR>
+      <NOM>Michel Blanc</NOM>
+      <FILMS>
+         <FILM titre="Les bronzés font du ski"/>
+      </FILMS>
+   </ACTEUR>
+   <ACTEUR>
+      <NOM>Christian Clavier</NOM>
+      <FILMS>
+         <FILM titre="Les bronzés font du ski"/>
+      </FILMS>
+   </ACTEUR>
+   <ACTEUR>
+      <NOM>Thierry Lhermite</NOM>
+      <FILMS>
+         <FILM titre="Les bronzés font du ski"/>
+      </FILMS>
+   </ACTEUR>
+   <ACTEUR>
+      <NOM>Anthony Perkins</NOM>
+      <FILMS>
+         <FILM titre="Psychose"/>
+      </FILMS>
+   </ACTEUR>
+   <ACTEUR>
+      <NOM>Vera Miles</NOM>
+      <FILMS>
+         <FILM titre="Psychose"/>
+      </FILMS>
+   </ACTEUR>
+   <ACTEUR>
+      <NOM>Janet Leigh</NOM>
+      <FILMS>
+         <FILM titre="Psychose"/>
+      </FILMS>
+   </ACTEUR>
+   <ACTEUR>
+      <NOM>Mark Hamill</NOM>
+      <FILMS>
+         <FILM titre="Le retour du Jedi"/>
+      </FILMS>
+   </ACTEUR>
+   <ACTEUR>
+      <NOM>Carrie Fisher</NOM>
+      <FILMS>
+         <FILM titre="Le retour du Jedi"/>
+      </FILMS>
+   </ACTEUR>
+   <ACTEUR>
+      <NOM>Rod Taylor</NOM>
+      <FILMS>
+         <FILM titre="Les oiseaux"/>
+      </FILMS>
+   </ACTEUR>
+   <ACTEUR>
+      <NOM>Tippi Hedren</NOM>
+      <FILMS>
+         <FILM titre="Les oiseaux"/>
+         <FILM titre="Pas de printemps pour Marnie"/>
+      </FILMS>
+   </ACTEUR>
+   <ACTEUR>
+      <NOM>Quentin Tarantino</NOM>
+      <FILMS>
+         <FILM titre="Reservoir dogs"/>
+      </FILMS>
+   </ACTEUR>
+   <ACTEUR>
+      <NOM>Harvey Keitel</NOM>
+      <FILMS>
+         <FILM titre="Reservoir dogs"/>
+      </FILMS>
+   </ACTEUR>
+   <ACTEUR>
+      <NOM>Tim Roth</NOM>
+      <FILMS>
+         <FILM titre="Reservoir dogs"/>
+      </FILMS>
+   </ACTEUR>
+   <ACTEUR>
+      <NOM>Chris Penn</NOM>
+      <FILMS>
+         <FILM titre="Reservoir dogs"/>
+      </FILMS>
+   </ACTEUR>
+   <ACTEUR>
+      <NOM>Nicole Kidman</NOM>
+      <FILMS>
+         <FILM titre="Eyes Wide Shut"/>
+      </FILMS>
+   </ACTEUR>
+   <ACTEUR>
+      <NOM>Jack Nicholson</NOM>
+      <FILMS>
+         <FILM titre="Shining"/>
+      </FILMS>
+   </ACTEUR>
+   <ACTEUR>
+      <NOM>Cary Grant</NOM>
+      <FILMS>
+         <FILM titre="La mort aux trousses"/>
+      </FILMS>
+   </ACTEUR>
+   <ACTEUR>
+      <NOM>Eva Marie Saint</NOM>
+      <FILMS>
+         <FILM titre="La mort aux trousses"/>
+      </FILMS>
+   </ACTEUR>
+   <ACTEUR>
+      <NOM>James Mason</NOM>
+      <FILMS>
+         <FILM titre="La mort aux trousses"/>
+      </FILMS>
+   </ACTEUR>
+   <ACTEUR>
+      <NOM>Milla Jovovich</NOM>
+      <FILMS>
+         <FILM titre="Jeanne d_Arc"/>
+         <FILM titre="Le cinquième élément"/>
+      </FILMS>
+   </ACTEUR>
+   <ACTEUR>
+      <NOM>Fane Dunaway</NOM>
+      <FILMS>
+         <FILM titre="Jeanne d_Arc"/>
+      </FILMS>
+   </ACTEUR>
+   <ACTEUR>
+      <NOM>John Malkovitch</NOM>
+      <FILMS>
+         <FILM titre="Jeanne d_Arc"/>
+      </FILMS>
+   </ACTEUR>
+   <ACTEUR>
+      <NOM>Gary Oldman</NOM>
+      <FILMS>
+         <FILM titre="Le cinquième élément"/>
+         <FILM titre="Léon"/>
+      </FILMS>
+   </ACTEUR>
+   <ACTEUR>
+      <NOM>Ian Holm</NOM>
+      <FILMS>
+         <FILM titre="Le cinquième élément"/>
+      </FILMS>
+   </ACTEUR>
+   <ACTEUR>
+      <NOM>Natalie Portman</NOM>
+      <FILMS>
+         <FILM titre="Léon"/>
+      </FILMS>
+   </ACTEUR>
+</xml>
