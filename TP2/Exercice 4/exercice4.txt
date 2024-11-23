@@ -1,0 +1,74 @@
+
+1. Un exemple pour commencer : Affichez tous les titres de films.
+//FILM/@titre
+
+2. Affichez le genre du film "Seven".
+//FILM[@titre="Seven"]/GENRE -> Policier
+
+3. Cherchez les titres de tous les drames.
+//FILM[GENRE="Drame"]/@titre
+Titanic, Sacrifice, Gladiator, Le Grand Blue, Van Gogh, Vertigo, Rain Man
+
+4. Cherchez les titres de tous les films du même genre que le film "58 minutes pour vivre".
+//FILM[GENRE=//FILM[@titre="58 minutes pour vivre"]/GENRE]/@titre
+"Volte/Face"
+"Blade Runner"
+"Piège de cristal"
+"58 minutes pour vivre"
+"Pulp fiction"
+"Godzilla"
+"Top Gun"
+"Léon"
+
+5. Trouvez les titres des films dramatiques (`GENRE='Drame'`) tournés par Hitchcock.
+//FILM[GENRE="Drame" and MES="Hitchcock"]/@titre
+Vertigo
+
+6. Affichez les films sans acteurs.
+//FILM[not(ROLES/ROLE)]/@titre
+"Sacrifice"
+"Kagemusha"
+"MICROCOSMOS"
+"Fenêtre sur cour"
+
+7. Quel est le dernier film du document ?
+(//FILM)[last()]/@titre
+"Léon"
+
+8. Quel est le film qui précède immédiatement le film "Vertigo" dans le document ?
+//FILM[@titre="Vertigo"]/preceding-sibling::FILM[1]/@titre
+"Le nom de la rose"
+
+9. Donnez les titres des films qui contiennent le caractère 'L' (conseil : la fonction `contains(str1, str2)` retourne `True` si `str1` contient la chaîne `str2`).
+//FILM[contains(@titre, 'L')]/@titre
+Le grand bleu
+L_armée des douze singes
+Le nom de la rose
+Les dents de la mer
+Le silence des agneaux
+Le prince d_Egypte
+Les pleins pouvoirs
+Le gendarme et les extra-terrestres
+Les frères pétards
+Le monde perdu
+Les bronzés font du ski
+Le retour du Jedi
+Les oiseaux
+La mort aux trousses
+Le cinquième élément
+Léon
+
+10. Trouvez les films qui n'ont que trois rôles (conseil : la fonction `count` permet d'obtenir le nombre de nœuds dans un ensemble):
+//FILM[count(ROLES/ROLE) = 3]/@titre
+Sleepy Hollow
+Impitoyable
+Le grand bleu
+Seven
+Les dents de la mer
+Les pleins pouvoirs
+Nikita
+Top Gun
+Psychose
+Le retour du Jedi
+La mort aux trousses
+Léon
