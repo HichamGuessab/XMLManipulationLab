@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xml>
+   <FILM titre="Volte/Face">
+      <ANNEE>1997</ANNEE>
+
+      <GENRE>Action</GENRE>
+
+      <PAYS>USA</PAYS>
+
+      <MES>Woo</MES>
+
+      <ROLES>
+         <ROLE acteur="11">Sean Archer/Castor Troy</ROLE>
+
+         <ROLE acteur="12">Castor Troy/Sean Archer</ROLE>
+      </ROLES>
+   </FILM>
+   <FILM titre="Pulp fiction">
+      <ANNEE>1994</ANNEE>
+
+      <GENRE>Action</GENRE>
+
+      <PAYS>USA</PAYS>
+
+      <MES>Tarantino</MES>
+
+      <ROLES>
+         <ROLE acteur="11">Vincent Vega</ROLE>
+
+         <ROLE acteur="27">Butch Coolidge</ROLE>
+
+         <ROLE acteur="38">Jules Winnfield</ROLE>
+
+         <ROLE acteur="39">Jody</ROLE>
+
+         <ROLE acteur="40">Mia Wallace</ROLE>
+      </ROLES>
+   </FILM>
+</xml>
