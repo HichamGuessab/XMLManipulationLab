@@ -38,12 +38,15 @@
         <ul>
             <li>Distance au soleil:
                 <xsl:value-of select="distance"/>
+                <xsl:value-of select="distance/@unit"/>
             </li>
             <li>Masse:
                 <xsl:value-of select="masse"/>
+                <xsl:value-of select="masse/@unit"/>
             </li>
             <li>Diamètre:
                 <xsl:value-of select="diametre"/>
+                <xsl:value-of select="diametre/@unit"/>
             </li>
         </ul>
     </xsl:template>
