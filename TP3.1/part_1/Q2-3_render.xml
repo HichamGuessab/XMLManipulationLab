@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xml>
+   <category>
+      <name>S</name>
+      <stock>10</stock>
+   </category>
+   <category>
+      <name>F</name>
+      <stock>6</stock>
+   </category>
+   <category>
+      <name>X</name>
+      <stock>0</stock>
+   </category>
+   <category>
+      <name>C</name>
+      <stock>12</stock>
+   </category>
+   <category>
+      <name>U</name>
+      <stock>2</stock>
+   </category>
+</xml>
