@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TP 3.1 XQuery</title>
+</head>
+<body>
+<h1>TP 3.1 XQuery</h1>
+
+<p>Ce TP sur XQuery est principalement basé sur l'utilisation d'ExchangerXML. Il n'existe pas encore beaucoup de
+    solutions disponibles en logiciels libres pour utiliser un moteur d'interprétation XQuery. Toutefois si vous
+    souhaitez en utiliser une autre, libre à vous (et, le cas échéant, merci de faire remonter les bonnes trouvailles à
+    votre enseignant).</p>
+
+<h2>1. Prise en main de XQuery dans Exhanger XML</h2>
+<p>Pour vous familiariser avec XQuery, Exchanger XML propose un exemple permettant de mettre en œuvre le moteur
+    d'interprétation. Les fichiers composant l'exemple sont accessibles dans l'onglet "Projects" (habituellement affiché
+    en zone gauche de votre écran), dossier XQuery.</p>
+<p><strong>Attention :</strong> Vous pouvez aussi aller chercher les fichiers dans le répertoire Projets dans "Program
+    Files/Exchanger...".</p>
+<p>Au cas où : L'archive avec l'exemple XQuery.</p>
+
+<h3>À faire :</h3>
+<ol>
+    <li>Regénérez le résultat de la requête XQuery <code>books.xq</code>.</li>
+    <li>Ensuite, définissez les requêtes permettant de :
+        <ul>
+            <li>Sélectionner les livres présents en stock par ordre de prix décroissant. Pour chaque livre, on affichera
+                uniquement la valeur des éléments <code>TITRE</code> et <code>PRICE</code> dans des balises xhtml, le
+                premier dans une police de couleur jaune, le second bleu.
+            </li>
+            <li>Faire la facture pour l'achat de deux livres particuliers (à choisir). Votre requête devra définir au
+                minimum les variables permettant d'accéder aux livres, afficher leur titre et le prix total (les prix
+                doivent être récupérés dans <code>books.xml</code>).
+                <p><strong>Attention :</strong> les variables dans XQuery ne sont pas modifiables (propriétés d'un
+                    langage fonctionnel). Il faut donc traiter les 2 livres en une seule expression FLOWER (par exemple
+                    avec 2 variables), et réaliser la somme des prix avec un <code>let</code> interne unique (pas
+                    d'accumulateur).</p>
+            </li>
+            <li>Relever pour chaque catégorie de livre le nombre des livres appartenant à cette catégorie présents en
+                stock. La catégorie devra être indiquée explicitement.
+            </li>
+        </ul>
+    </li>
+</ol>
+<p><a href="part_1">Réponses partie 1</a></p>
+
+<h2>2. Les livres et les auteurs</h2>
+<p>L'objectif est d'interroger les documents <code>films.xml</code> et <code>artistes.xml</code> avec XQuery. Pour faire
+    des requêtes XQuery nous utiliserons Exchanger XML. Vous remarquerez que certaines questions ont déjà été posées
+    dans l'exercice 1 du TP sur XPath, vous pouvez ainsi comparer les résultats obtenus entre les requêtes XPath et
+    XQuery.</p>
+
+<h3>À faire :</h3>
+<p>Avec Exchanger XML, faites les recherches suivantes sur les fichiers <code>films.xml</code> et
+    <code>artistes.xml</code> :</p>
+<ol>
+    <li>Pour s'échauffer : 3+8 ?</li>
+    <li>De quelle année est le film « Le retour du Jedi » ?</li>
+    <li>Quels sont les titres de tous les films d'horreurs ? Les titres ne devront plus apparaître en attribut mais en
+        valeur textuelle d'une balise <code>&lt;film&gt;</code>.
+    </li>
+    <li>Quels sont les titres (affichés en attribut d'une balise <code>&lt;film&gt;</code>) et années (affichées en
+        élément de <code>&lt;film&gt;</code>) des films dramatiques tournés par Hitchcock ?
+    </li>
+    <li>Quels sont les films dans lesquels a tourné John Travolta ? Afficher tous les détails.</li>
+    <li>Quel est le film qui précède immédiatement "Léon" dans le document ?</li>
+    <li>Combien de films sont proposés dans chaque genre ?</li>
+    <li>Quels sont les acteurs qui ont joué dans plus d'un film ? Afficher pour chaque acteur le compte correspondant.
+    </li>
+    <li>Afficher la liste des metteurs en scène, avec pour chacun d'eux la liste de leurs films.</li>
+    <li>Construire une requête qui détermine pour chaque acteur la liste des titres de films dans lesquels il a joué.
+        Par exemple, pour l'acteur Travolta on veut obtenir la sortie suivante :
+    </li>
+</ol>
+<pre><code>&lt;ACTEUR&gt;
+  &lt;NOM&gt;Travolta&lt;/NOM&gt;
+  &lt;FILMS&gt;
+    &lt;FILM titre="Volte/Face"/&gt;
+    &lt;FILM titre="Pulp fiction"/&gt;
+  &lt;/FILMS&gt;
+&lt;/ACTEUR&gt;
+</code></pre>
+<p><a href="part_2">Réponses partie 2</a></p>
+
+<p>© Sujet proposé par Fabrice Lefèvre, 2024.</p>
+</body>
+</html>

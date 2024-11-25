@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TP2 XSLT et XPath</title>
+</head>
+<body>
+<h1>TP2 XSLT et XPath</h1>
+
+<h2>Exercice 1. XSL et Recette</h2>
+<p>Nous allons appliquer une mise en forme de base au fichier XML suivant :</p>
+<pre><code>&lt;?xml version="1.0" encoding="ISO-8859-1" ?&gt;
+&lt;recette&gt;
+  &lt;entete&gt;
+    &lt;auteur&gt;Casimir&lt;/auteur&gt;
+    &lt;titre&gt;Recette du Gloubi-Boulga&lt;/titre&gt;
+    &lt;remarque&gt;Pour une personne&lt;/remarque&gt;
+  &lt;/entete&gt;
+  &lt;procedure&gt;
+    Remplir un saladier avec de la confiture de fraises, du chocolat râpé, des bananes écrasées, de la moutarde, des saucisses de Toulouse écrasées tièdes mais crues.
+    Mélanger vigoureusement jusqu'à obtenir une bouillie marron-clair. Il est normal qu'il y ait des grumeaux. Les proportions sont environ égales pour tous les ingrédients,
+    mais il est possible de varier selon les goûts de chacun.
+  &lt;/procedure&gt;
+&lt;/recette&gt;
+</code></pre>
+<ol>
+    <li>Créer une feuille de style XSL permettant à partir de cette fiche recette de produire une page HTML qui :
+        <ul>
+            <li>a pour titre le contenu de la balise <code>titre</code> ;</li>
+            <li>commence par un titre <code>&lt;h1&gt;</code> ayant comme contenu le contenu de la balise
+                <code>titre</code> ;
+            </li>
+            <li>donne ensuite le nom de l'auteur de la recette ;</li>
+            <li>affiche ensuite "Remarque :" puis le contenu de la balise <code>remarque</code> ;</li>
+            <li>affiche "Procédure à suivre :" en niveau <code>&lt;h2&gt;</code> ;</li>
+            <li>puis dans un paragraphe, présente la procédure à suivre (contenu de <code>procedure</code>).</li>
+        </ul>
+    </li>
+    <li>Évaluer la feuille de style à l'aide des commandes "Transform" de Exchanger XML, puis directement dans un
+        navigateur web classique (Firefox ou IE).
+    </li>
+</ol>
+<p><a href="Exercice%201">Réponses Exercice 1</a></p>
+
+<h2>Exercice 2. XSL et Recette avec Ingrédients</h2>
+<p>Le fichier précédent est augmenté de la liste des ingrédients :</p>
+<pre><code>&lt;?xml version="1.0" encoding="ISO-8859-1" ?&gt;
+&lt;recette&gt;
+  &lt;entete&gt;
+    &lt;auteur&gt;Casimir&lt;/auteur&gt;
+    &lt;titre&gt;Recette du Gloubi-Boulga&lt;/titre&gt;
+    &lt;remarque&gt;Pour une personne&lt;/remarque&gt;
+  &lt;/entete&gt;
+  &lt;procedure&gt;
+    &lt;texte&gt;Remplir un saladier avec de la confiture de fraises, du chocolat râpé, des bananes écrasées, de la moutarde, des saucisses de Toulouse écrasées tièdes mais crues.&lt;/texte&gt;
+    &lt;liste&gt;
+      &lt;item&gt;confiture de fraises&lt;/item&gt;
+      &lt;item&gt;chocolat râpé&lt;/item&gt;
+      &lt;item&gt;bananes écrasées&lt;/item&gt;
+      &lt;item&gt;moutarde forte&lt;/item&gt;
+      &lt;item&gt;saucisses de Toulouse écrasées tièdes mais crues&lt;/item&gt;
+    &lt;/liste&gt;
+    &lt;texte&gt;Mélanger vigoureusement jusqu'à obtenir une bouillie marron-clair. Il est normal qu'il y ait des grumeaux.&lt;/texte&gt;
+    &lt;texte&gt;Les proportions sont environ égales pour tous les ingrédients, mais il est possible de varier selon les goûts de chacun.&lt;/texte&gt;
+  &lt;/procedure&gt;
+&lt;/recette&gt;
+</code></pre>
+<p>Reprendre l'exercice précédent, mais cette fois-ci en affichant dans la description une liste des ingrédients, puis
+    les opérations à pratiquer. Cette description devra être réalisée uniquement en utilisant des règles et sans recours
+    à une boucle explicite (i.e. pas de <code>foreach</code>, <code>while</code>...).</p>
+<p>Les listes (ingrédients et opérations) devront être numérotées par XSL, c'est-à-dire sans recours à la balise HTML
+    <code>&lt;ol&gt;</code>.</p>
+<p><strong>Aide :</strong> XPath possède une fonction permettant de retourner le numéro du nœud courant dans la séquence
+    des nœuds contextes. Elle peut donc être utilisée par XSLT dans un <code>value-of</code> par exemple.</p>
+<p><a href="Exercice%202">Réponses Exercice 2</a></p>
+
+<h2>Exercice 3. XSL et Règles avec Modes</h2>
+<p>Pour pouvoir appliquer sur les mêmes nœuds des règles différentes en fonction de la situation, une solution consiste
+    à utiliser des règles nommées qui sont ensuite appelées avec <code>&lt;call-template&gt;</code>. Il est aussi
+    possible d'associer un mode à une règle avec l'attribut <code>mode</code> :</p>
+<pre><code>&lt;xsl:template match="TITRE" mode="TdM"&gt;
+</code></pre>
+<p>appelée avec :</p>
+<pre><code>&lt;xsl:apply-templates mode="TdM"&gt;
+</code></pre>
+<p>L'objectif de l'exercice est d'utiliser cette fonction pour générer au début du document résultat une table des
+    matières constituée de liens vers les différentes parties du document.</p>
+<ol>
+    <li>Créer une feuille de style XSL permettant à partir du document XML de l'exercice DTD Annuaire du TP1 de produire
+        une page HTML qui affiche correctement l'ensemble des informations sur les contacts ;
+    </li>
+    <li>Compléter la feuille de style de manière à créer des ancres nommées au niveau des titres des contacts ;</li>
+    <li>Finalement, modifier la feuille de style afin d'insérer en début de document une liste de liens pointant sur les
+        contacts.
+    </li>
+    <li>Vérifier le résultat en produisant le fichier HTML final.</li>
+</ol>
+<p><a href="Exercice%203">Réponses Exercice 3</a></p>
+
+<h2>Exercice 4. XPath et Les Films</h2>
+<p>L'objectif est d'interroger le document <code>films.xml</code> avec XPath. Le traitement à l'aide d'un fichier XSL
+    permet d'accéder à certains nœuds de l'arbre XML en spécifiant leur chemin ("path"). Le document contient les
+    descriptions XML de films. Extrait :</p>
+<pre><code>&lt;?xml version="1.0" encoding="iso-8859-1"?&gt; 
+&lt;films&gt;
+  &lt;film titre='Alien'&gt;
+    &lt;annee&gt;1979&lt;/annee&gt;
+    &lt;genre&gt;Science-fiction&lt;/genre&gt;
+    &lt;pays&gt;USA&lt;/pays&gt;
+    &lt;mes&gt;Scott&lt;/mes&gt;
+    &lt;roles&gt;
+      &lt;role acteur='5'&gt;Ripley&lt;/role&gt;
+    &lt;/roles&gt;
+  &lt;/film&gt;
+  &lt;film titre='Titanic'&gt;
+    &lt;annee&gt;1997&lt;/annee&gt;
+    &lt;genre&gt;Drame&lt;/genre&gt;
+    &lt;pays&gt;USA&lt;/pays&gt;
+    &lt;mes&gt;Cameron&lt;/mes&gt;
+    &lt;roles&gt;
+      &lt;role acteur='109'&gt;Rose DeWitt Bukater&lt;/role&gt;
+      &lt;role acteur='110'&gt;Jack Dawson&lt;/role&gt;
+    &lt;/roles&gt;
+  &lt;/film&gt;
+&lt;/films&gt;
+</code></pre>
+<p>Pour cela, nous allons utiliser la barre XPath fournie par <code>Exchanger XML</code>, mais il est possible d'inclure
+    un appel à Xpath dans une fonction javascript ou ailleurs.</p>
+<p>Avec la console de visualisation (onglets "XPath results" dans la fenêtre des messages en bas), faites les recherches
+    suivantes :</p>
+<ol>
+    <li>Un exemple pour commencer : Affichez tous les titres de films : <code>//FILM/@titre</code>.</li>
+    <li>Affichez le genre du film "Seven".</li>
+    <li>Cherchez les titres de tous les drames.</li>
+    <li>Cherchez les titres de tous les films du même genre que le film "58 minutes pour vivre".</li>
+    <li>Trouvez les titres des films dramatiques (<code>GENRE='Drame'</code>) tournés par Hitchcock.</li>
+    <li>Affichez les films sans acteurs.</li>
+    <li>Quel est le dernier film du document ?</li>
+    <li>Quel est le film qui précède immédiatement le film "Vertigo" dans le document ?</li>
+    <li>Donnez les titres des films qui contiennent le caractère 'L' (conseil : la fonction <code>contains(str1,
+        str2)</code> retourne <code>True</code> si <code>str1</code> contient la chaîne <code>str2</code>).
+    </li>
+    <li>Trouvez les films qui n'ont que trois rôles (conseil : la fonction <code>count</code> permet d'obtenir le nombre
+        de nœuds dans un ensemble).
+    </li>
+</ol>
+<p><a href="Exercice%204">Réponses Exercice 4</a></p>
+
+<h2>Exercice 5. XSL Avancé et les Planètes</h2>
+<p>Nous disposons d'un document XML décrivant les différentes planètes du système solaire :</p>
+<pre><code>&lt;?xml version="1.0" encoding="ISO-8859-1" ?&gt;
+&lt;systeme_solaire&gt;
+  &lt;etoile&gt;
+    &lt;nom&gt;Soleil&lt;/nom&gt;
+    &lt;type_spectral&gt;G2&lt;/type_spectral&gt;
+    &lt;age unit="milliard d'annees"&gt;5&lt;/age&gt;
+  &lt;/etoile&gt;
+  &lt;planete type="tellurique"&gt;
+    &lt;nom&gt;Mars&lt;/nom&gt;
+    &lt;distance unit="UA"&gt;1.5&lt;/distance&gt;
+    &lt;masse unit="masse terrestre"&gt;0.1&lt;/masse&gt;
+    &lt;diametre unit="diamètre terrestre"&gt;0.5&lt;/diametre&gt;
+    &lt;satellite&gt;2&lt;/satellite&gt;
+  &lt;/planete&gt;
+  &lt;planete type="gazeuse" anneau="yes"&gt;
+    &lt;nom&gt;Saturne&lt;/nom&gt;
+    &lt;distance unit="UA"&gt;9.6&lt;/distance&gt;
+    &lt;masse unit="masse terrestre"&gt;95&lt;/masse&gt;
+    &lt;diametre unit="diamètre terrestre"&gt;9.4&lt;/diametre&gt;
+    &lt;satellite&gt;18&lt;/satellite&gt;
+  &lt;/planete&gt;
+  &lt;planete type="Kuiper"&gt;
+    &lt;nom&gt;Pluton&lt;/nom&gt;
+    &lt;distance unit="UA"&gt;39.4&lt;/distance&gt;
+    &lt;masse unit="masse terrestre"&gt;0.002&lt;/masse&gt;
+    &lt;diametre unit="diamètre terrestre"&gt;0.2&lt;/diametre&gt;
+    &lt;satellite&gt;1&lt;/satellite&gt;
+  &lt;/planete&gt;
+&lt;/systeme_solaire&gt;
+</code></pre>
+<p>Pour commencer, se procurer le fichier <code>planetes.xml</code> et la <code>feuille de style</code> à compléter,
+    puis :</p>
+<ol>
+    <li>Présenter les données sous la forme d'une liste donnant pour chaque planète son nom, sa distance par rapport au
+        Soleil, sa masse et son diamètre, de manière à obtenir le résultat suivant. À effectuer de deux manières
+        différentes :
+        <ul>
+            <li>En utilisant une règle de transformation, un template, et en l'appelant correctement dans la règle
+                principale de la feuille de style avec <code>&lt;xsl:apply-templates&gt;</code>.
+            </li>
+            <li>À l'aide d'une boucle <code>&lt;xsl:for-each&gt;</code>.</li>
+        </ul>
+    </li>
+    <li>Ajouter à la distance, la masse et le diamètre, les unités employées (en récupérant la valeur de l'attribut
+        <code>unit</code> pour chacun de ces éléments).
+    </li>
+    <li>Effectuer pour chaque planète un test sur l'élément <code>satellite</code>. S'il existe, afficher le nombre de
+        satellites.
+    </li>
+    <li>Ne plus afficher les informations sur la Terre.</li>
+    <li>Classer les planètes (exceptée la Terre) par ordre décroissant de leur diamètre.</li>
+    <li>À l'aide de <code>&lt;xsl:choose&gt;</code>, faire un test sur le diamètre des planètes et afficher suivant le
+        cas :
+        <ul>
+            <li><strong>SMALL</strong> : si le diamètre est inférieur au diamètre moyen des planètes ;</li>
+            <li><strong>BIG</strong> : si le diamètre est supérieur au diamètre moyen des planètes.</li>
+        </ul>
+    </li>
+    <li>(facultatif) Afficher à présent une mention particulière pour les planètes dont la masse est supérieure à la
+        moyenne des masses des planètes telluriques.
+    </li>
+    <li>(facultatif) L'affichage des mesures des planètes (distance au soleil, masse, diamètre) doit maintenant être
+        réalisé à l'aide d'une règle de transformation <code>montre_mesure</code> qui prend en paramètres la valeur et
+        l'unité de la mesure.
+    </li>
+</ol>
+<p><strong>Conseil :</strong> penser à consulter la documentation en ligne (par exemple <a
+        href="http://www.w3.org/TR/xslt">http://www.w3.org/TR/xslt</a> ou sa traduction en français sur yoyodesign)</p>
+<p><a href="Exercice%205">Réponses Exercice 5</a></p>
+
+<p>© Sujet proposé par Fabrice Lefèvre, 2024.</p>
+</body>
+</html>
