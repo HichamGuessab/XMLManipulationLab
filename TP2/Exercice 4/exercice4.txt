@@ -2,6 +2,8 @@
 1. Un exemple pour commencer : Affichez tous les titres de films.
 //FILM/@titre
 
+Comme expliqué dans le mail, une flopée de liens s'affichent, mais je ne peux malheureusement pas les copier-coller.
+
 2. Affichez le genre du film "Seven".
 //FILM[@titre="Seven"]/GENRE -> Policier
 
